@@ -1,0 +1,76 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+#banner {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border: 1px solid lightgray;
+}
+
+.links-icons, .membership-icons, .category, .nyt-logo {
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.links-icons {
+  height: 20px;
+}
+
+.membership-icons, .nyt-logo {
+  height: 30px;
+}
+
+.category {
+  color: black;
+  text-decoration: none;
+}
+
+.category:hover{
+  text-decoration: underline;
+}
+
+.membership-icons {
+  background-color: #567B95;
+  color: white;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headline-text {
+  margin: auto;
+  padding-top: 80px;
+  width: 600px;
+  max-width: 600px;
+  text-align: left;
+}
+
+.image-header img, p{
+  min-width: 600px;
+  max-width: 1010px;
+  height: auto;
+  text-align: left;
+  font-size: 0.9rem;
+  line-height: 1.125rem;
+  color: #666666;
+}
+
+.article {
+  width: 600px;
+  padding-top: 20px;
+  text-align: left;
+}
