@@ -2,12 +2,13 @@ body {
   margin: 0 auto;
   padding: 0 auto;
 }
-
+/*NAV BAR*/
 #banner {
   position: fixed;
   width: 100%;
   height: 40px;
   top: 0;
+  z-index: 2;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -44,7 +45,7 @@ body {
   background-color: #567B95;
   color: white;
 }
-
+/*ARTICLE*/
 #content {
   display: flex;
   flex-direction: column;
@@ -59,9 +60,9 @@ body {
   text-align: left;
 }
 
-.image-header img, p{
+.image-header img, .foot-note{
   min-width: 600px;
-  max-width: 1010px;
+  max-width: 1200px;
   height: auto;
   text-align: left;
   font-size: 0.9rem;
@@ -69,8 +70,49 @@ body {
   color: #666666;
 }
 
-.article {
+.article-content {
   width: 600px;
+  margin: auto;
   padding-top: 20px;
   text-align: left;
+}
+
+.ad-subscribe {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.separator-small {
+  border-bottom: 1px solid black;
+  width: 75px;
+  margin: auto;
+}
+
+.suggestions img{
+  width: 75px;
+  height: auto;
+  margin: 10px;
+}
+
+.suggestions {
+  position: absolute;
+  top: 1550px;
+  right: 20%;
+  width: 210px;
+}
+
+.suggestions-text {
+  font-size: 14px;
+}
+
+.editors-pick {
+  display: flex;
+  flex-direction: column;
+}
+
+.article1, .article2, .article3 {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
 }

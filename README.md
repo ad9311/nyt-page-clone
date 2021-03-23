@@ -2,7 +2,7 @@
 
 # New York Times Page Clone
 
-## Built With
+### Built With
 
 - HTML
 - CSS
