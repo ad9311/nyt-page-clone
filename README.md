@@ -7,7 +7,7 @@
 - HTML
 - CSS
 
-##Author
+## Author
 
 👤 **Ángel Díaz**
 
