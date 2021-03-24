@@ -1,8 +1,9 @@
 body {
   margin: 0 auto;
-  padding: 0 auto;
 }
-/*NAV BAR*/
+
+/* NAV BAR */
+
 #banner {
   position: fixed;
   width: 100%;
@@ -16,7 +17,10 @@ body {
   border: 1px solid lightgray;
 }
 
-.links-icons, .membership-icons, .category, .nyt-logo {
+.links-icons,
+.membership-icons,
+.category,
+.nyt-logo {
   margin-left: 10px;
   margin-right: 10px;
   vertical-align: middle;
@@ -28,7 +32,8 @@ body {
   height: 20px;
 }
 
-.membership-icons, .nyt-logo {
+.membership-icons,
+.nyt-logo {
   height: 30px;
 }
 
@@ -37,15 +42,17 @@ body {
   text-decoration: none;
 }
 
-.category:hover{
+.category:hover {
   text-decoration: underline;
 }
 
 .membership-icons {
-  background-color: #567B95;
+  background-color: #567b95;
   color: white;
 }
-/*ARTICLE*/
+
+/* ARTICLE */
+
 #content {
   display: flex;
   flex-direction: column;
@@ -60,14 +67,30 @@ body {
   text-align: left;
 }
 
-.image-header img, .foot-note{
+.share {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  left: 295px;
+  width: 250px;
+  height: 60px;
+}
+
+.share-img {
+  width: 20px;
+  height: auto;
+}
+
+.image-header img,
+.foot-note {
   min-width: 600px;
   max-width: 1200px;
   height: auto;
   text-align: left;
   font-size: 0.9rem;
   line-height: 1.125rem;
-  color: #666666;
+  color: #666;
 }
 
 .article-content {
@@ -89,7 +112,7 @@ body {
   margin: auto;
 }
 
-.suggestions img{
+.suggestions img {
   width: 75px;
   height: auto;
   margin: 10px;
@@ -111,8 +134,60 @@ body {
   flex-direction: column;
 }
 
-.article1, .article2, .article3 {
+.article1,
+.article2,
+.article3 {
   display: flex;
   align-items: center;
   font-size: 12px;
+}
+
+.theory {
+  width: 945px;
+  font-size: 12px;
+  margin: auto;
+}
+
+.theory-exp {
+  display: flex;
+  flex-wrap: wrap;
+  width: 945px;
+}
+
+.theory-img img {
+  width: 228px;
+  height: auto;
+}
+
+.theory-description {
+  width: 200px;
+}
+
+.theory-img {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  width: 228px;
+}
+
+.article-video {
+  margin: auto;
+  width: 600px;
+}
+
+.article-img-container {
+  width: 720px;
+  margin: auto;
+}
+
+.article-img img {
+  position: relative;
+  width: 720px;
+  height: auto;
+}
+
+.article-img-text {
+  text-align: left;
+  font-size: 0.85rem;
+  line-height: 1.25rem;
 }
