@@ -1,5 +1,4 @@
 @import "fonts.css";
-@import "grid.css";
 
 body {
   margin: 0 auto;
@@ -477,4 +476,71 @@ body {
   font-weight: normal;
   font-size: 11px;
   float: right;
+}
+
+.footer-flex {
+  display: flex;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 197px 197px 197px 197px 197px;
+  grid-template-rows: 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px auto;
+}
+
+.ft-menu h3 {
+  color: #333;
+  font-size: 14px;
+  font-family: nyt-franklin, georgia, "times new roman", times, serif;
+}
+
+.ft-menu a,
+.subs-side a {
+  font-family: nyt-franklin, georgia, "times new roman", times, serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+.bottom-footer a {
+  text-decoration: none;
+  font-family: nyt-franklin, georgia, "times new roman", times, serif;
+  color: #666;
+  padding-top: 40px;
+}
+
+.ft-menu a:hover,
+.subs-side a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.subs-side {
+  border-left: 1px solid black;
+  padding-left: 10px;
+}
+
+.subs-side img {
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.subs-main-links {
+  font-weight: bolder;
+}
+
+.subs-other-links {
+  font-size: 11px;
+}
+
+.ft-links-margin {
+  line-height: 25px;
+}
+
+.bottom-footer {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
 }
