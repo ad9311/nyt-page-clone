@@ -90,25 +90,9 @@ body {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
 
-.separator-top,
-.separator-credit,
-.separator-center-top,
-.separator-center-bottom,
-.separator-side,
-.separator-bottom-left,
-.separator-bottom-right,
-.separator-links {
-  border-bottom: 1px solid #ccc;
-  margin: 0 auto 18px;
-}
-
-.separator-center-top {
-  width: 75px;
-}
-
-.separator-center-bottom {
-  margin: 18px auto 0;
-  width: 75px;
+.separator {
+  border: 1px solid lightgray;
+  width: 100%;
 }
 
 .share {
@@ -144,6 +128,7 @@ body {
 .author-time,
 .singup {
   font-family: nyt-franklin, georgia, "times new roman", times, serif;
+  font-size: 16px;
 }
 
 .link-reverse {
@@ -218,7 +203,8 @@ body {
 .separator-small {
   border-bottom: 1px solid black;
   width: 75px;
-  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .editors-pick {
@@ -373,6 +359,7 @@ body {
 .comments-share button {
   width: 330px;
   font-size: 13px;
+  margin: 0;
 }
 
 .share-bottom {
@@ -380,68 +367,191 @@ body {
 }
 
 .bottom-content {
-  margin-top: 30px;
-  width: 1200px;
   display: flex;
+  width: 1200px;
   justify-content: space-between;
 }
 
-.separator-bottom-left,
-.separator-bottom-right {
-  border-color: black;
-  margin: auto;
-}
-
-.left-section {
-  width: 900px;
-}
-
-.right-section {
-  width: 300px;
-}
-
-.newsletters {
-  width: 273px;
-  display: flex;
-}
-
-.ns-container {
-  border: 1px solid #666;
-  box-sizing: border-box;
+.left-section,
+.right-section,
+.sgs-margin {
   margin: 10px;
 }
 
-.ns {
-  margin: 15px;
+.right-width {
+  width: 290px;
 }
 
-.margin-text {
-  margin: 1px;
+.left-width {
+  width: 870px;
 }
 
-.side-links {
+.sgs {
   display: flex;
-  flex-direction: column;
 }
 
-.sg-topic-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-around;
+.sgs-story {
+  width: 270px;
+  margin: 10px;
+  border: 1px solid lightgray;
+  color: #333;
+  font-family: nyt-franklin, georgia, "times new roman", times, serif;
 }
 
-.sg-topic {
-  width: 272px;
+.sgs-story:hover {
+  border: 1px solid #666;
+  cursor: pointer;
 }
 
-.sg-article-img {
-  width: 272px;
+.shadow,
+.popular-links,
+.edp-bottom {
+  text-shadow: 1px 1px 1px gray;
 }
 
-.bottom-links {
+.small-text {
+  font-size: 11px;
+}
+
+.small-mid-text {
+  font-size: 13px;
+}
+
+.black-text {
+  color: black;
+}
+
+.links-text {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  font-weight: 500;
   font-size: 19px;
+  font-weight: 500;
   text-decoration: none;
   color: black;
+}
+
+.links-text:hover {
+  color: #666;
+}
+
+.edp-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.edp-links,
+.edp-links img {
+  margin: 5px;
+  width: 270px;
+  border: none;
+  color: #666;
+}
+
+.sgs-inner-margin {
+  margin: 8px;
+}
+
+.sgs-margin {
+  margin: auto;
+}
+
+.sgs-right-margin {
+  margin-right: 15px;
+}
+
+.sgs-text-left-margin {
+  margin-left: 5px;
+}
+
+.sgs-text-left-margin-wider {
+  margin-left: 10px;
+  color: #333;
+  line-height: 0;
+}
+
+.sgs-footnote-justify {
+  text-align: right;
+  color: #666;
+}
+
+.footer-container {
+  width: 1200px;
+}
+
+.top-footer input {
+  width: 184px;
+  height: auto;
+}
+
+.ft-link {
+  font-weight: normal;
+  font-size: 11px;
+  float: right;
+}
+
+.footer-flex {
+  display: flex;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 197px 197px 197px 197px 197px;
+  grid-template-rows: 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px auto;
+}
+
+.ft-menu h3 {
+  color: #333;
+  font-size: 14px;
+  font-family: nyt-franklin, georgia, "times new roman", times, serif;
+}
+
+.ft-menu a,
+.subs-side a {
+  font-family: nyt-franklin, georgia, "times new roman", times, serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+.bottom-footer a {
+  text-decoration: none;
+  font-family: nyt-franklin, georgia, "times new roman", times, serif;
+  color: #666;
+  padding-top: 40px;
+}
+
+.ft-menu a:hover,
+.subs-side a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.subs-side {
+  border-left: 1px solid lightgray;
+  padding-left: 10px;
+}
+
+.subs-side img {
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.subs-main-links {
+  font-weight: bolder;
+}
+
+.subs-other-links {
+  font-size: 11px;
+}
+
+.ft-links-margin {
+  line-height: 25px;
+}
+
+.bottom-footer {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
 }
