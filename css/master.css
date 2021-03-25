@@ -1,4 +1,5 @@
 @import "fonts.css";
+@import "grid.css";
 
 body {
   margin: 0 auto;
@@ -399,7 +400,8 @@ body {
 }
 
 .shadow,
-.popular-links {
+.popular-links,
+.edp-bottom {
   text-shadow: 1px 1px 1px gray;
 }
 
@@ -460,4 +462,19 @@ body {
 .sgs-footnote-justify {
   text-align: right;
   color: #666;
+}
+
+.footer-container {
+  width: 1200px;
+}
+
+.top-footer input {
+  width: 184px;
+  height: auto;
+}
+
+.ft-link {
+  font-weight: normal;
+  font-size: 11px;
+  float: right;
 }
