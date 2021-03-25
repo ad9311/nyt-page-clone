@@ -326,6 +326,7 @@ body {
   padding-bottom: 13px;
   margin: auto;
   width: 600px;
+  border: none;
 }
 
 .article-video span,
