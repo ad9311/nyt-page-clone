@@ -506,7 +506,8 @@ body {
 }
 
 .ft-menu a,
-.subs-side a {
+.subs-side a,
+.opinion-form  {
   font-family: nyt-franklin, georgia, "times new roman", times, serif;
   font-size: 14px;
   text-decoration: none;
@@ -554,4 +555,28 @@ body {
   display: flex;
   justify-content: space-between;
   padding-bottom: 50px;
+}
+
+.opinion {
+  width: 600px;
+}
+
+.opinion-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.radio-buttons {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.comment {
+  resize: none;
+}
+
+.tr-sep {
+  color: transparent;
 }

@@ -242,6 +242,35 @@
           </div>
         </div>
       </div>
+      <div class="opinion">
+        <hr class="separator">
+        <form class="opinion-form" action="index.html" method="post">
+          <div>
+            <label for="username">Username</label><br>
+            <input type="text" required name="username" value=""><br>
+            <label for="email">e-Mail</label><br>
+            <input type="e-Mail"required name="email" value=""><br>
+          </div>
+          <hr class="tr-sep">
+          <label for="Question">What is your overall opinion about this article?</label>
+          <hr class="tr-sep">
+          <div class="radio-buttons">
+            <input type="radio" name="opinion" value="Positive" checked> Positive
+            <input type="radio" name="opinion" value="Negative"> Negative
+            <input type="radio" name="opinion" value="Neutral"> Neutral
+          </div>
+          <hr class="tr-sep">
+          <textarea class="comment" maxlength="250" name="comment" rows="8" cols="80">Type your comment here…</textarea>
+          <hr class="tr-sep">
+          <div class="subs-news-form">
+            <label for="checkbox">I want to subscribe to the newsletter</label>
+            <input type="checkbox" name="newsletter" value="yes" checked>
+          </div>
+          <hr class="tr-sep">
+          <input type="submit" name="submit" value="Send">
+        </form>
+        <hr class="separator">
+      </div>
       <div class="bottom-content">
         <div class="left-section left-width">
           <hr class="separator">
