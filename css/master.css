@@ -393,7 +393,38 @@ body {
 .sgs-story {
   width: 270px;
   margin: 10px;
-  border: 1px solid black;
+  border: 1px solid lightgray;
+  color: #333;
+  font-family: nyt-franklin, georgia, "times new roman", times, serif;
+}
+
+.shadow,
+.popular-links {
+  text-shadow: 1px 1px 1px gray;
+}
+
+.small-text {
+  font-size: 11px;
+}
+
+.small-mid-text {
+  font-size: 13px;
+}
+
+.black-text {
+  color: black;
+}
+
+.links-text {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 19px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+.links-text:hover{
+  color: #666;
 }
 
 .edp-bottom {
@@ -407,4 +438,26 @@ body {
   margin: 5px;
   width: 270px;
   border: none;
+  color: #666;
+}
+
+.sgs-inner-margin {
+  margin: 8px;
+}
+
+.sgs-margin {
+  margin: auto;
+}
+
+.sgs-right-margin {
+  margin-right: 15px;
+}
+
+.sgs-text-left-margin {
+  margin-left: 5px;
+}
+
+.sgs-footnote-justify {
+  text-align: right;
+  color: #666;
 }
