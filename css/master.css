@@ -386,7 +386,7 @@ body {
   width: 870px;
 }
 
-.sgs{
+.sgs {
   display: flex;
 }
 
@@ -423,7 +423,7 @@ body {
   color: black;
 }
 
-.links-text:hover{
+.links-text:hover {
   color: #666;
 }
 
