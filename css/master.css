@@ -91,7 +91,7 @@ body {
 }
 
 .separator {
-  border: 1px solid #666;
+  border: 1px solid lightgray;
   width: 100%;
 }
 
@@ -398,6 +398,11 @@ body {
   font-family: nyt-franklin, georgia, "times new roman", times, serif;
 }
 
+.sgs-story:hover {
+  border: 1px solid #666;
+  cursor: pointer;
+}
+
 .shadow,
 .popular-links,
 .edp-bottom {
@@ -458,6 +463,12 @@ body {
   margin-left: 5px;
 }
 
+.sgs-text-left-margin-wider {
+  margin-left: 10px;
+  color: #333;
+  line-height: 0;
+}
+
 .sgs-footnote-justify {
   text-align: right;
   color: #666;
@@ -485,7 +496,7 @@ body {
 .footer {
   display: grid;
   grid-template-columns: 197px 197px 197px 197px 197px;
-  grid-template-rows: 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px auto;
+  grid-template-rows: 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px auto;
 }
 
 .ft-menu h3 {
@@ -516,7 +527,7 @@ body {
 }
 
 .subs-side {
-  border-left: 1px solid black;
+  border-left: 1px solid lightgray;
   padding-left: 10px;
 }
 
