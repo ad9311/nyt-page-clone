@@ -92,7 +92,7 @@ body {
 
 .separator {
   border: 1px solid #666;
-  margin-bottom: 10px;
+  width: 100%;
 }
 
 .share {
@@ -203,7 +203,8 @@ body {
 .separator-small {
   border-bottom: 1px solid black;
   width: 75px;
-  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .editors-pick {
@@ -363,4 +364,47 @@ body {
 
 .share-bottom {
   position: static;
+}
+
+.bottom-content {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+}
+
+.left-section,
+.right-section,
+.sgs-margin {
+  margin: 10px;
+}
+
+.right-width {
+  width: 290px;
+}
+
+.left-width {
+  width: 870px;
+}
+
+.sgs{
+  display: flex;
+}
+
+.sgs-story {
+  width: 270px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.edp-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.edp-links,
+.edp-links img {
+  margin: 5px;
+  width: 270px;
+  border: none;
 }
