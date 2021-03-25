@@ -49,7 +49,7 @@
 
 @font-face {
   font-family: franklin;
-  src: url('/font/franklin/franklin-normal-700.woff2');
+  src: url('../font/franklin/franklin-normal-700.woff2');
   font-style: normal;
   font-weight: 700;
 }
