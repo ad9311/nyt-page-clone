@@ -2,10 +2,18 @@
 
 # New York Times Page Clone
 
+![New York Times Page Clone](/img/screenshot1.png)
+
+![New York Times Page Clone](/img/screenshot2.png)
+
 ### Built With
 
 - HTML
 - CSS
+
+## Live Version Here 👇🏽️
+
+- [NYT Clone Page](https://ad9311.github.io/nyt/)
 
 ## Author
 

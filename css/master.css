@@ -555,3 +555,25 @@ body {
   justify-content: space-between;
   padding-bottom: 50px;
 }
+
+.fixed-footer {
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  bottom: 0;
+  z-index: 2;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.ft-text {
+  color: black;
+}
+
+.ft-inner {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 13px;
+}
