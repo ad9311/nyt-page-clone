@@ -1,0 +1,104 @@
+@font-face {
+  font-family: nyt-cheltenham;
+  src: url('../font/cheltenham/cheltenham-italic-700.woff2');
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: nyt-cheltenham;
+  src: url('../font/cheltenham/cheltenham-normal-500.woff2');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: nyt-cheltenham-small;
+  src: url('../font/cheltenham/cheltenham-small-normal-400.woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: nyt-cheltenham;
+  src: url('../font/cheltenham/nyt-cheltenham-700-normal.woff');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: nyt-cheltenham-sh;
+  src: url('../font/cheltenham/nyt-cheltenham-sh-400-normal.woff');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: franklin;
+  src: url('../font/franklin/franklin-normal-500.woff2');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: franklin;
+  src: url('../font/franklin/franklin-normal-600.woff2');
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: franklin;
+  src: url('../font/franklin/franklin-normal-700.woff2');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: franklin;
+  src: url('../font/franklin/franklin-normal-800.woff2');
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: nyt-franklin;
+  src: url('../font/franklin/nyt-franklin-300-normal.woff');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: nyt-franklin;
+  src: url('../font/franklin/nyt-franklin-500-normal.woff');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: nyt-franklin;
+  src: url('../font/franklin/nyt-franklin-700-normal.woff');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: nyt-imperial;
+  src: url('../font/imperial/imperial-normal-400.woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: nyt-imperial;
+  src: url('../font/imperial/imperial-italic-400.woff2');
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: nyt-imperial;
+  src: url('../font/imperial/imperial-normal-700.woff2');
+  font-style: normal;
+  font-weight: 700;
+}
