@@ -31,3 +31,7 @@ Contributions, issues, and feature requests are welcome!
 ## Show your support
 
 Please consider leaving a ⭐️ if you like this project, that helps me a lot!
+
+## License 📃
+
+This project is [MIT](./LICENSE) licensed.
