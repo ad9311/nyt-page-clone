@@ -13,7 +13,7 @@
 
 ## Live Version Here 👇🏽️
 
-- [NYT Clone Page](https://ad9311.github.io/nyt/)
+- [NYT Clone Page](https://ad9311.github.io/nyt-page-clone/)
 
 ## Author
 
